@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  border: 2px solid plum;
+}
+
+.flexbox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexbox div{
+  width: 50%;
+}
+
+.flexbox div img{
+  width: 100%;
+}
+
+@media (width>=1200px){
+  body{
+    max-width: 1200px;
+    margin: auto;
+  }
+  .flexbox{
+    flex-direction: column;
+  }
+}
