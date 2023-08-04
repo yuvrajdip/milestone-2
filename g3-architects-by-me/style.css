@@ -1,10 +1,41 @@
 /* google font */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Work Sans', sans-serif;
 }
 
+header {
+  padding: 50px 240px;
+}
+
+nav,
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  margin-right: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.nav-title {
+  font-size: 45px;
+  font-weight: 700;
+}
