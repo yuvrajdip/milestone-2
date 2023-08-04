@@ -23,6 +23,7 @@
   padding: 20px 25px;
   border: none;
   color: #FFF;
+  cursor: pointer;
 }
 
 /* header style */
@@ -79,4 +80,37 @@ nav a {
 
 .banner-img {
   width: 100%;
+}
+
+/* responsive nav & banner */
+/* mobile */
+@media screen and (width<=576px){
+  header{
+    padding:20px ;
+  }
+  nav{
+    flex-direction: column;
+  }
+  .nav-title{
+    margin-bottom: 2rem;
+  }
+  nav li{
+    margin-right: 0.85rem;
+  }
+  .banner img{
+    width: 100%;  
+  }
+}
+
+/* tablet */
+@media screen and (577px<= width <=970px ){
+  header{
+    padding: 50px;
+  }
+  nav{
+    flex-direction: column;
+  }
+  .nav-title{
+    margin-bottom: 2rem;
+  }
 }
