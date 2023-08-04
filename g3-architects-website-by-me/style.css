@@ -1,0 +1,82 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
+
+/* shared styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.btn-primary {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 8px;
+  background: #FF900E;
+  padding: 20px 25px;
+  border: none;
+  color: #FFF;
+}
+
+/* header style */
+header {
+  background: rgba(255, 144, 14, 0.10);
+  padding: 50px 150px;
+}
+
+/* navbar styles */
+
+nav,
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  margin-right: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.nav-title {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+/* banner styles */
+
+.banner {
+  text-align: center;
+}
+
+.banner-title {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.banner-description {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.banner-img {
+  width: 100%;
+}
